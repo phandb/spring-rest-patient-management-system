@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.luv2code.springdemo</groupId>
-	<artifactId>spring-crm-rest</artifactId>
+	<groupId>com.java.projects.spring</groupId>
+	<artifactId>spring-rest-pms</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
@@ -97,7 +97,7 @@
 
 	<build>
 
-		<finalName>spring-crm-rest</finalName>
+		<finalName>spring-rest-pms</finalName>
 
 		<plugins>
 

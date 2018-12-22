@@ -24,6 +24,7 @@ public class PatientServiceImpl implements PatientService {
 	}
 
 	@Override
+	@Transactional
 	public void saveOrUpdatePatient(Patient thePatient) {
 
 		patientDAO.saveOrUpdatePatient(thePatient);
