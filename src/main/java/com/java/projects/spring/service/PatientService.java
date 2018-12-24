@@ -2,7 +2,10 @@ package com.java.projects.spring.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.java.projects.spring.entity.Patient;
+
 
 public interface PatientService {
 	

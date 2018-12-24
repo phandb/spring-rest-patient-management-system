@@ -34,7 +34,7 @@ public class ApplicationConfig implements WebMvcConfigurer {
 	private Environment env;
 	
 	private Logger logger = Logger.getLogger(getClass().getName());
-	
+	/*
 	//Define a bean for ViewResolver
 	@Bean
 	public ViewResolver viewResolver() {
@@ -47,7 +47,7 @@ public class ApplicationConfig implements WebMvcConfigurer {
 		return viewResolver;
 		
 	}
-	
+	*/
 	//Define a bean for security data source
 	@Bean
 	public DataSource myDataSource() {
